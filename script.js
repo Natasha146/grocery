@@ -10,12 +10,18 @@ cartTotal= item + cartTotal;
 //return cartTotal;
 }
 //console.log(addToCart (banana));
-function removeFromCart(item){
+function removeFromCart(item)
+{
 cartTotal= cartTotal - item;
-
 }
-addToCart(apple);
-addToCart(milk);
-console.log(cartTotal);
-removeFromCart(apple);
-console.log(cartTotal);
+
+function discountItem(item, discount){
+return item - (item * discount)
+}
+function calculateTheTotal(){
+    console.log("Final total: $" + cartTotal)
+}
+
+var discountMilk = discountItem(item, discount){
+  
+}
